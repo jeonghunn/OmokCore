@@ -3,11 +3,11 @@
 ini_set('memory_limit', '1024M');
 
 $HELLO_CORE_VERSION = "1.0";
-$CORE_VERSION = "3.19.601";
-$DEVELOPMENT_SERVER_URL = "unopenedbox.com/develop/square/";
-$SERVER_URL = "s9uare.com/";
-$MAIN_URL = "http://s9uare.com/";
-$MAIN_API_URL = "http://s9uare.com/api.php";
+$CORE_VERSION = "1.0.606";
+$DEVELOPMENT_SERVER_URL = "unopenedbox.com/develop/omok/";
+$SERVER_URL = "unopenedbox.com/develop/omok/";
+$MAIN_URL = "http://unopenedbox.com/develop/omok/";
+$MAIN_API_URL = "http://unopenedbox.com/develop/omok/api.php";
 $CLIENT_SERVER_IP_ADDRESS = "52.78.110.116";
 $DEVELOPMENT_MODE = false;
 
@@ -15,7 +15,7 @@ $DEVELOPMENT_MODE = false;
 require_once 'db_config.php';
 
 //Import Modules
-$IMPORT_MODULE = array('settings', 'main', 'account', 'board', 'page', 'notification', 'attach', 'square');
+$IMPORT_MODULE = array('settings', 'main', 'account', 'board', 'page', 'notification', 'attach');
 
 
 ?>
