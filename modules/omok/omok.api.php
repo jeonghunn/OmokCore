@@ -7,6 +7,5 @@
  */
 
 
-if ($ACTION == "hello_world") $API->hello_world();
-if ($ACTION == "CoreVersion") $API->API_getCoreVersion();
+if ($ACTION == "omok_hello_world") $API->hello_world();
 
