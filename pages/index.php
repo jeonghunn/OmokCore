@@ -32,6 +32,10 @@
     <script src="assets/js/AI/test.js"></script>
 </head>
 <body>
+<?php echo ""
+
+
+?>
 <br>
 <canvas id="board" width="1000" height="1000"></canvas>
 <div id="half">
