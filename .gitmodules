@@ -10,3 +10,6 @@
 [submodule "modules/attach"]
 	path = modules/attach
 	url = https://github.com/jeonghunn/Hello_Attach.git
+[submodule "modules/settings"]
+	path = modules/settings
+	url = https://github.com/jeonghunn/Hello_Settings.git
