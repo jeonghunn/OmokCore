@@ -108,7 +108,7 @@ setLoaded(true);
 
 //Guest, User all can
 if (getActParameter() == "") $act_parameter = "home";
-LoadPages("home", "square/view/square_main", false);
+LoadPages("home", "index", false);
 LoadPages("error", "error", false);
 LoadPages("info", "info/view/info", false);
 LoadPages("license", "info/view/license", false);

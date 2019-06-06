@@ -1,0 +1,68 @@
+
+.squarecardw {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: #FFFFFF;
+    transition: 0.3s;
+    /*   border-radius: 16px; 5px rounded corners */
+    width: 100%;
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-top: 16px;
+    font-size: 24px;
+
+}
+
+.squarecard_mainbig {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: #FFFFFF;
+    transition: 0.3s;
+    /*   border-radius: 16px; 5px rounded corners */
+    height: 240px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-top: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    cursor: pointer;
+    cursor: hand;
+
+
+}
+
+.squarecard_grid {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: #FFFFFF;
+    transition: 0.3s;
+    /*   border-radius: 16px; 5px rounded corners */
+    height: 250px;
+    cursor: pointer;
+    cursor: hand;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-top: 16px;
+    font-size: 24px;
+
+}
+
+.squarecard_mainbig:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.squarecard_grid:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.griddiv {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
