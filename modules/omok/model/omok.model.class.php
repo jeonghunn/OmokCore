@@ -4,7 +4,7 @@ class OmokModelClass
 {
     public $srl, $status, $data, $result, $last_update;
 
-    function getOmok()
+    function get()
     {
         return array('srl' => $this->srl,
             'status' => $this->status,

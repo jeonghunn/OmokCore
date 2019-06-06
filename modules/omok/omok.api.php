@@ -7,5 +7,6 @@
  */
 
 
-if ($ACTION == "omok_hello_world") $API->hello_world();
+if ($ACTION == "omok_hello_world") $OmokAPI->hello_world();
+if ($ACTION == "omok_tick") $OmokAPI->API_Tick();
 

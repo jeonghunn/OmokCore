@@ -8,24 +8,12 @@ class OmokAPIClass
         echo "Hello World!";
     }
 
-
-//API AUTH
-    function API_AUTH($auth_key)
+    function API_Tick()
     {
+        $OMOK_CLASS = new OmokClass();
 
+        $result = $OMOK_CLASS->tickGame();
     }
-
-    function API_addAPI($user_srl, $name, $des)
-    {
-
-    }
-
-    //System
-    function API_getCoreVersion()
-    {
-        echo getCoreVersion();
-    }
-
 
 }
 
