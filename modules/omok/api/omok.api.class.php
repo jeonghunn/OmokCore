@@ -13,6 +13,8 @@ class OmokAPIClass
         $OMOK_CLASS = new OmokClass();
 
         $result = $OMOK_CLASS->tickGame();
+
+        echo $result['data'];
     }
 
 }
