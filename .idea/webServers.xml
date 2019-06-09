@@ -18,6 +18,14 @@
           <option name="port" value="6273" />
         </fileTransfer>
       </webServer>
+      <webServer id="6b324523-b145-41ed-b47c-5e797daf282c" name="OmokCoreServer" url="http://unopenedbox.com">
+        <fileTransfer host="unopenedbox.com" port="6273" privateKey="$PROJECT_DIR$/../tark/tarks.pem" rootFolder="/var/www/html" accessType="SFTP" keyPair="true" username="ubuntu">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="6273" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

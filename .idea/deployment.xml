@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="SquareDevelopServer" uploadOnCheckin="7fabfe55-ba22-4522-a093-9a58548f1810">
+  <component name="PublishConfigData" serverName="OmokCoreServer" uploadOnCheckin="6b324523-b145-41ed-b47c-5e797daf282c">
     <serverData>
-      <paths name="SquareCoreServer">
+      <paths name="OmokCoreServer">
         <serverdata>
           <mappings>
-            <mapping deploy="/rect" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/develop/omok" local="$PROJECT_DIR$" web="/develop/omok" />
           </mappings>
         </serverdata>
       </paths>
@@ -24,6 +24,6 @@
         </serverdata>
       </paths>
     </serverData>
-    <option name="myUploadOnCheckinName" value="SquareDevelopServer" />
+    <option name="myUploadOnCheckinName" value="OmokCoreServer" />
   </component>
 </project>
