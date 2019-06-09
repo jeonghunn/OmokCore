@@ -9,7 +9,7 @@ function Model_Omok_Insert($OMOK_MODEL)
 
 function Model_Omok_getLastOne()
 {
-    return DBQuery('SELECT * FROM  `omok` WHERE  `status` NOT LIKE "deleted" ORDER BY `omok`.`srl` DESC LIMIT 1');
+    return DBQuery('SELECT * FROM  `omok` WHERE  `status` NOT LIKE "deleted" AND `status` NOT LIKE "end" ORDER BY `omok`.`srl` DESC LIMIT 1');
 }
 
 

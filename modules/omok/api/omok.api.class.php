@@ -16,7 +16,7 @@ class OmokAPIClass
         $team = REQUEST('team');
         $tick = REQUEST('tick');
 
-        $result = $OMOK_CLASS->tickGame($team, $x . $y, $tick);
+        $result = $OMOK_CLASS->tickGame($team, $x, $y, $tick);
 
         echo $result['tick'] . "/" . $result['data'] . "/" . $result['result'];
     }
