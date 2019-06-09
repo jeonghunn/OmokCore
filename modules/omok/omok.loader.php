@@ -9,6 +9,7 @@
 
 //load model
 require_once 'modules/omok/model/omok.model.class.php';
+require_once 'modules/omok/model/omok.model.php';
 
 
 //load class
