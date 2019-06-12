@@ -144,10 +144,12 @@ game.stone.updateDol = () => {
 
                 let winner = game.checkWin();
                 if (winner) {
-                    setTimeout(() => {
+
                         alert("당신의 " + ((winner == user.color) ? "승리" : "패배") + "입니다.");
-                    }, 100);
+
+                    location.href = "index.php";
                 }
+
             }
 
 
@@ -155,6 +157,7 @@ game.stone.updateDol = () => {
         error: function (jqXHR) {
 
             alert('서버와의 통신 중 오류가 발생했습니다. 새로고침하여 다시 시도하세요.');
+            location.href = "index.php";
 
         }
 

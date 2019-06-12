@@ -65,9 +65,10 @@ const user = {
 
         let winner = game.checkWin();
         if (winner) {
-            setTimeout(() => {
+
                 alert("당신의 " + ((winner == user.color) ? "승리" : "패배") + "입니다.");
-            }, 100);
+
+            location.href = "index.php";
         }
     }
 };

@@ -10,17 +10,25 @@ class OmokClass
 //Check game available.
         if ($last['srl'] == null) return false;
 //Check this turn is correct
-        if ($last['tick'] != $tick) return array('tick' => $last['tick'], 'data' => $last['data'], 'result' => $result);
+
         if ($team == 1 && $tick % 2 != 0) return false;
         if ($team == 2 && $tick % 2 == 0) return false;
 
         $map = json_decode($last['data']);
 
+        if ($x == null || $y == null || $last['tick'] != $tick) {
+            //  return array('tick' => $tick, 'data' => $last['data'], 'result' => $result);
+            $tick = $last['tick'];
+            $x = -1;
+            $y = -1;
+        } else {
+            if ($map[$y][$x] != 0) return false;
+            $map[$y][$x] = $team;
 
-        if ($map[$y][$x] != 0) return false;
-        $map[$y][$x] = $team;
+            $tick = $tick + 1;
 
-        $tick = $tick + 1;
+
+        }
 
         $color = 0;
         //Winner?
@@ -29,11 +37,11 @@ class OmokClass
                 if ($map[$x][$y] != 0)
                     for ($h = 0; $h < 2; $h++)
                         for ($l = -1; $l < 2; $l++) {
-                            $color = $map[$x][$y];
+                            $color = (int)$map[$x][$y];
                             for ($k = 0; $k < 5; $k++) {
                                 $PX = $x + $k * $h;
                                 $PY = $y + $k * ($l ** $h);
-                                if (!$map[$PX] || $color !== $map[$PX][$PY]) {
+                                if (!$map[$PX] || $color !== (int)$map[$PX][$PY]) {
                                     $color = 0;
                                     break;
                                 }
@@ -45,11 +53,11 @@ class OmokClass
 
                         }
 
-        if ($x == null || $y == null) return array('tick' => $tick, 'data' => $last['data'], 'result' => $result);
-        $this->updateGame($last['srl'], $map, $tick, $result);
+
+        $this->updateGame($last['srl'], $map, $tick, $result, $x, $y);
 
 
-        return array('tick' => $tick, 'data' => EncodeJson($map), 'result' => $result);
+        return array('tick' => $tick, 'data' => EncodeJson($map), 'result' => $result, 'lstx' => $x, 'lsty' => $y);
     }
 
 
@@ -59,11 +67,11 @@ class OmokClass
     }
 
 
-    function updateGame($srl, $data, $tick)
+    function updateGame($srl, $data, $tick, $lstx, $lsty)
     {
 
 
-        return Model_Omok_UpdateData($srl, EncodeJson($data), $tick);
+        return Model_Omok_UpdateData($srl, EncodeJson($data), $tick, $lstx, $lsty);
 
     }
 

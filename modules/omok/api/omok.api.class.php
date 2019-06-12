@@ -18,7 +18,7 @@ class OmokAPIClass
 
         $result = $OMOK_CLASS->tickGame($team, $x, $y, $tick);
 
-        echo $result['tick'] . "/" . $result['data'] . "/" . $result['result'];
+        echo $result['tick'] . "/" . $result['data'] . "/" . $result['result'] . "/" . $result['lstx'] . "/" . $result['lsty'];
     }
 
     function API_Start()

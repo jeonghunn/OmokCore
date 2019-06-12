@@ -48,12 +48,12 @@ if ($game_result == "//") {
 }
 
 //if null
-if ($result == "1") {
+if ($result == 1) {
     echo "<h1>당신의 승리로 게임이 종료되었습니다.</h1>";
     exit();
 }
 
-if ($result == "2") {
+if ($result == 2) {
     echo "<h1>당신의 패배로 게임이 종료되었습니다.</h1>";
     exit();
 }
