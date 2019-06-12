@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="pages/assets/css/reset.css">
     <link rel="stylesheet" href="pages/assets/css/board.css">
     <link rel="stylesheet" href="pages/assets/css/button.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="pages/assets/js/query.min.js"></script>
     <script src="pages/assets/js/object/math.js"></script>
     <script src="pages/assets/js/object/array.js"></script>

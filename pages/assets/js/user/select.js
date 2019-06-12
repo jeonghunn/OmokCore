@@ -57,46 +57,8 @@ const user = {
             return alert("그곳에는 돌을 놓을 수 없습니다. 룰을 확인해주세요.");
 
         game.stone.set(user.color, ...user.focus.coord);
+        game.stone.requestDol();
 
-
-        $.ajax({
-            type: "POST",
-            url: API_URL,
-            data: {
-                "a": "omok_tick",
-                "apiv": "1",
-                "api_key": "xT3FP4AuctM-",
-                "x": user.focus.coord[0],
-                "y": user.focus.coord[1],
-                "team": "1",
-                "tick": tick
-            },
-            success: function (data) {
-
-                //setProcessing(false);
-                if (data.indexOf('//') >= 0) {
-                    alert('내 차례가 아닙니다. 아쉽게도 다른 분이 먼저 돌을 두셨습니다.');
-
-
-                } else {
-                    var jbSplit = data.split(',');
-                    tick = jbsplit[0];
-                    if (tick % 2 != 0) tick++;
-                    var Map = JSON.parse(jbSplit[1]);
-                    game.stone.list = Map;
-
-                }
-
-
-            },
-            error: function (jqXHR) {
-
-                alert('서버와의 통신 중 오류가 발생했습니다. 새로고침하여 다시 시도하세요.');
-
-            }
-
-
-        });
 
         // game.stone.set(AI_COLOR, ...AI(AI_COLOR, game.stone.list));
         user.focus.set();
@@ -109,6 +71,7 @@ const user = {
         }
     }
 };
+
 
 window.addEventListener('DOMContentLoaded', () => {
     user.focus.set();
