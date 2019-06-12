@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="model import fix">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="Loading error page has been fixed.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/omok/api/omok.api.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/omok/api/omok.api.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/omok/controller/omok.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/omok/controller/omok.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/omok/model/omok.model.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/omok/model/omok.model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/game/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/assets/js/game/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/assets/js/user/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/assets/js/user/select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,6 +47,56 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/assets/js/AI/core.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/assets/js/game/core.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/assets/js/game/stone.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/assets/js/user/select.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/omok/api/omok.api.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -55,81 +105,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/omok/controller/omok.class.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+            <state relative-caret-position="251">
+              <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/omok/omok.api.php">
+        <entry file="file://$PROJECT_DIR$/core/permission.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+            <state relative-caret-position="238">
+              <caret line="78" column="31" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/omok/model/omok.model.class.php">
+        <entry file="file://$PROJECT_DIR$/pages/info/view/info.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="377">
+              <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/omok/model/omok.model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="139" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/omok/omok.loader.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/account/controller/member.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/account/model/member.model.php">
+        <entry file="file://$PROJECT_DIR$/pages/assets/js/canvas/get.js">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/account/controller/tarks_account.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/account/model/account.model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="105" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -143,21 +148,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#FileUploaderModal</find>
-      <find>ColorPickerModal</find>
-      <find>closeColorPickerModal</find>
-      <find>openFileUploader</find>
-      <find>FileUploaderModal</find>
-      <find>file</find>
-      <find>set</find>
-      <find>style</find>
-      <find>getStyle</find>
-      <find>background</find>
-      <find>setCardBackgroundColor</find>
-      <find>setCardStyle</find>
-      <find>T(</find>
-      <find>writeAct</find>
-      <find>p</find>
       <find>API_AuthAccount</find>
       <find>SignUpAccount</find>
       <find>activ</find>
@@ -173,6 +163,21 @@
       <find>768</find>
       <find>resiz</find>
       <find>Model_Omok_getLastOne</find>
+      <find>pages/error</find>
+      <find>select-black</find>
+      <find>select-white</find>
+      <find>initGam</find>
+      <find>initGame</find>
+      <find>assets/</find>
+      <find>white</find>
+      <find>api</find>
+      <find>API_KEY</find>
+      <find>getAPIKey</find>
+      <find>api_key</find>
+      <find>AI</find>
+      <find>coord</find>
+      <find>user.focus.co</find>
+      <find>set</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -182,6 +187,8 @@
       <replace>birthday_month</replace>
       <replace>setProcessing(</replace>
       <replace>CardBackgroundModal</replace>
+      <replace>pages/core/error</replace>
+      <replace>pages/assets/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/pages/birthday</dir>
@@ -196,10 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/js/ColorPicker/Colorpicker.js" />
-        <option value="$PROJECT_DIR$/modules/square/controller/square_card.class.php" />
-        <option value="$PROJECT_DIR$/modules/square/model/square_card.model.php" />
-        <option value="$PROJECT_DIR$/pages/base.php" />
         <option value="$PROJECT_DIR$/pages/square/controller/square_class.js" />
         <option value="$PROJECT_DIR$/pages/info/view/license.php" />
         <option value="$PROJECT_DIR$/pages/css/Colorpicker.js" />
@@ -238,7 +241,6 @@
         <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/pages/square/controller/square_editor.js.php" />
-        <option value="$PROJECT_DIR$/pages/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/modules/omok/model/omok.model.class.php" />
@@ -247,6 +249,11 @@
         <option value="$PROJECT_DIR$/modules/omok/api/omok.api.class.php" />
         <option value="$PROJECT_DIR$/modules/omok/model/omok.model.php" />
         <option value="$PROJECT_DIR$/modules/omok/controller/omok.class.php" />
+        <option value="$PROJECT_DIR$/pages/error.php" />
+        <option value="$PROJECT_DIR$/pages/assets/js/canvas/board.js" />
+        <option value="$PROJECT_DIR$/pages/index.php" />
+        <option value="$PROJECT_DIR$/pages/assets/js/game/core.js" />
+        <option value="$PROJECT_DIR$/pages/assets/js/user/select.js" />
       </list>
     </option>
   </component>
@@ -260,11 +267,10 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.5" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="336" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="832" />
+    <option name="height" value="831" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -282,32 +288,7 @@
             <path>
               <item name="OmokCore" type="b2602c69:ProjectViewProjectNode" />
               <item name="OmokCore" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OmokCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OmokCore" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OmokCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OmokCore" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OmokCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OmokCore" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OmokCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OmokCore" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OmokCore" type="b2602c69:ProjectViewProjectNode" />
@@ -325,28 +306,64 @@
             <path>
               <item name="OmokCore" type="b2602c69:ProjectViewProjectNode" />
               <item name="OmokCore" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="omok" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OmokCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OmokCore" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="omok" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OmokCore" type="b2602c69:ProjectViewProjectNode" />
               <item name="OmokCore" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OmokCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OmokCore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OmokCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OmokCore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="AI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OmokCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OmokCore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OmokCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OmokCore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OmokCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OmokCore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OmokCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OmokCore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -625,8 +642,8 @@
     </configuration>
     <list>
       <item itemvalue="PHPUnit.php" />
-      <item itemvalue="PHPUnit.MemberTest" />
       <item itemvalue="PHPUnit.MemberTest (1)" />
+      <item itemvalue="PHPUnit.MemberTest" />
       <item itemvalue="PHPUnit.PermissionTest" />
     </list>
   </component>
@@ -1060,21 +1077,10 @@
       <workItem from="1559806394921" duration="4999000" />
       <workItem from="1559915072355" duration="1564000" />
       <workItem from="1559975294833" duration="3479000" />
-      <workItem from="1560053944541" duration="3743000" />
-    </task>
-    <task id="LOCAL-02148" summary="active element test">
-      <created>1556106950599</created>
-      <option name="number" value="02148" />
-      <option name="presentableId" value="LOCAL-02148" />
-      <option name="project" value="LOCAL" />
-      <updated>1556106950599</updated>
-    </task>
-    <task id="LOCAL-02149" summary="version update">
-      <created>1556175598506</created>
-      <option name="number" value="02149" />
-      <option name="presentableId" value="LOCAL-02149" />
-      <option name="project" value="LOCAL" />
-      <updated>1556175598506</updated>
+      <workItem from="1560053944541" duration="5550000" />
+      <workItem from="1560063252056" duration="1256000" />
+      <workItem from="1560238245915" duration="5515000" />
+      <workItem from="1560299468246" duration="1455000" />
     </task>
     <task id="LOCAL-02150" summary="Refactoring Base.php, Config.php">
       <created>1559214633883</created>
@@ -1405,11 +1411,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560056510550</updated>
     </task>
-    <option name="localTasksCounter" value="2197" />
+    <task id="LOCAL-02197" summary="well done">
+      <created>1560057945754</created>
+      <option name="number" value="02197" />
+      <option name="presentableId" value="LOCAL-02197" />
+      <option name="project" value="LOCAL" />
+      <updated>1560057945754</updated>
+    </task>
+    <task id="LOCAL-02198" summary="Loading error page has been fixed.">
+      <created>1560058790447</created>
+      <option name="number" value="02198" />
+      <option name="presentableId" value="LOCAL-02198" />
+      <option name="project" value="LOCAL" />
+      <updated>1560058790447</updated>
+    </task>
+    <option name="localTasksCounter" value="2199" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1416475000" />
+    <option name="totallyTimeSpent" value="1426508000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1426,7 +1446,7 @@
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" sideWeight="0.24409449" side_tool="true" weight="0.23375931" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.29971388" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.3125894" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
@@ -1445,7 +1465,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32882273" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.5901288" visible="true" weight="0.29364005" />
+      <window_info active="true" anchor="bottom" id="File Transfer" order="13" sideWeight="0.5901288" visible="true" weight="0.29364005" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.490701" weight="0.3189189" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
@@ -1518,8 +1538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="notification api" />
-    <MESSAGE value="TEST" />
     <MESSAGE value="Deletion of Importing Modules From Base.php" />
     <MESSAGE value="Image Resizeable" />
     <MESSAGE value="Interect Js" />
@@ -1543,7 +1561,9 @@
     <MESSAGE value="update" />
     <MESSAGE value="omok update" />
     <MESSAGE value="model import fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="model import fix" />
+    <MESSAGE value="well done" />
+    <MESSAGE value="Loading error page has been fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Loading error page has been fixed." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1551,58 +1571,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/lang/en.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" selection-start-line="38" selection-end-line="38" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_add_creator.php" />
-    <entry file="file://$PROJECT_DIR$/pages/lang/ko.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_add_creator_3.php" />
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_add_creator_2.php" />
-    <entry file="file://$PROJECT_DIR$/modules/page/page.api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/page/api/page.api.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/account/account.api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="75" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/account/api/facebook.api.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/account/api/account.api.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_add_creator_1.php" />
     <entry file="file://$PROJECT_DIR$/modules/square/api/square.api.class.php" />
     <entry file="file://$PROJECT_DIR$/pages/square/square.loader.php" />
@@ -1651,13 +1619,6 @@
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php" />
     <entry file="file://$PROJECT_DIR$/modules/square/controller/square_card.class.php" />
     <entry file="file://$PROJECT_DIR$/modules/square/model/square.model.php" />
-    <entry file="file://$PROJECT_DIR$/pages/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="122" column="11" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php" />
     <entry file="file://$PROJECT_DIR$/pages/square/controller/square_write.js.php" />
     <entry file="file://$PROJECT_DIR$/pages/square/controller/square_editor.js.php" />
@@ -1675,13 +1636,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/pages/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
@@ -1700,13 +1654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1762,6 +1709,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/omok/controller/omok.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/assets/js/canvas/board.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/omok/model/omok.model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/assets/js/canvas/get.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/info/view/info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/permission.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="78" column="31" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/assets/js/AI/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/assets/js/game/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/assets/js/game/stone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/omok/api/omok.api.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1769,17 +1811,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/omok/model/omok.model.php">
+    <entry file="file://$PROJECT_DIR$/pages/assets/js/user/select.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/omok/controller/omok.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+        <state relative-caret-position="395">
+          <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
         </state>
       </provider>
     </entry>

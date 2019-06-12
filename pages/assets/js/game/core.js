@@ -11,3 +11,8 @@ const EMPTY = 0,
     BLACK = 2,
     X = 0,
     Y = 1;
+
+
+var tick = 0;
+
+var API_URL = "http://unopenedbox.com/develop/omok/api.php";
