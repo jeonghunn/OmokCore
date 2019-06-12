@@ -49,7 +49,7 @@ game.stone.isValid = (x, y, board) => {
 
 game.stone.requestDol = () => {
 
-    $.ajax({
+    jQuery.ajax({
         type: "POST",
         url: API_URL,
         data: {
@@ -59,7 +59,7 @@ game.stone.requestDol = () => {
             "x": user.focus.coord[0],
             "y": user.focus.coord[1],
             "team": "1",
-            "tick": tick
+            "tick": tick % 2 != 0 ? ++tick : tick
         },
         success: function (data) {
 
@@ -69,12 +69,23 @@ game.stone.requestDol = () => {
 
 
             } else {
-                var jbSplit = data.split(',');
-                tick = jbsplit[0];
-                if (tick % 2 != 0) tick++;
+                var jbSplit = data.split('/');
+                if ((tick % 2 != 0 ? ++tick : tick) != tick) alert('나보다 먼저 착수한 사람이 있어서 반영되지 않았습니다.')
+                tick = jbSplit[0];
+                game.stone.id = tick;
+                //         alert(jbSplit[1]);
                 var Map = JSON.parse(jbSplit[1]);
-                game.stone.list = Map;
+                var newMap = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], []];
 
+                for (var x = 0; x < 15; x++) {
+                    for (var y = 0; y < 15; y++) {
+
+                        newMap[y][x] = Map[x][y];
+                    }
+                }
+
+                game.stone.list = newMap;
+                game.stone.update();
             }
 
 
@@ -88,3 +99,70 @@ game.stone.requestDol = () => {
 
     });
 }
+
+game.stone.updateDol = () => {
+
+    jQuery.ajax({
+        type: "POST",
+        url: API_URL,
+        data: {
+            "a": "omok_tick",
+            "apiv": "1",
+            "api_key": "xT3FP4AuctM-",
+            "team": "1",
+            "tick": tick % 2 != 0 ? ++tick : tick
+        },
+        success: function (data) {
+
+            //setProcessing(false);
+            if (data.indexOf('//') >= 0) {
+                document.getElementById('game-explainp').innerText = '상대방 차례입니다. 기다려주세요.';
+
+            } else {
+                var jbSplit = data.split('/');
+                tick = jbSplit[0];
+                game.stone.id = tick;
+                if (tick % 2 == 0) {
+                    document.getElementById('game-explainp').innerText = '내 차례입니다. 착수해주세요.';
+                } else {
+                    document.getElementById('game-explainp').innerText = '상대방 차례입니다. 기다려주세요.';
+                }
+                //         alert(jbSplit[1]);
+                var Map = JSON.parse(jbSplit[1]);
+                var newMap = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], []];
+
+                for (var x = 0; x < 15; x++) {
+                    for (var y = 0; y < 15; y++) {
+
+                        newMap[y][x] = Map[x][y];
+                    }
+                }
+
+                game.stone.list = newMap;
+                game.stone.update();
+                user.focus.set();
+
+                let winner = game.checkWin();
+                if (winner) {
+                    setTimeout(() => {
+                        alert("당신의 " + ((winner == user.color) ? "승리" : "패배") + "입니다.");
+                    }, 100);
+                }
+            }
+
+
+        },
+        error: function (jqXHR) {
+
+            alert('서버와의 통신 중 오류가 발생했습니다. 새로고침하여 다시 시도하세요.');
+
+        }
+
+
+    });
+}
+
+
+tickcheck = setInterval(function () {
+    game.stone.updateDol();
+}, 1000);

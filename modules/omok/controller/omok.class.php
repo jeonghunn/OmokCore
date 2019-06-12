@@ -16,7 +16,7 @@ class OmokClass
 
         $map = json_decode($last['data']);
 
-        if ($x == null || $y == null) return array('tick' => $tick, 'data' => $last['data'], 'result' => $result);
+
         if ($map[$y][$x] != 0) return false;
         $map[$y][$x] = $team;
 
@@ -45,7 +45,7 @@ class OmokClass
 
                         }
 
-
+        if ($x == null || $y == null) return array('tick' => $tick, 'data' => $last['data'], 'result' => $result);
         $this->updateGame($last['srl'], $map, $tick, $result);
 
 

@@ -7,8 +7,8 @@ const game = {
 
 //편의를 위해 빈칸은 0, 흰색은 1, 검은색은 2로 취급한다.
 const EMPTY = 0,
-    WHITE = 1,
-    BLACK = 2,
+    WHITE = 2,
+    BLACK = 1,
     X = 0,
     Y = 1;
 

@@ -58,10 +58,6 @@ if ($result == "2") {
     exit();
 }
 
-if ($tick == "0") {
-    echo "<script>initGame(BLACK);</script>";
-
-}
 
 ?>
 <br>
@@ -84,13 +80,11 @@ if ($tick == "0") {
         <div class="fake move button"></div>
     </div>
     <div id="game-explain">
-        <p>
+        <p id="game-explainp">
             WASD 또는 방향키로 돌을 놓을 곳을 정하고 스페이스바 또는 엔터키를 눌러 돌을 놓습니다.
         </p>
     </div>
-    <p>
-        게임 로딩 중...
-    </p>
+
     <div id="version"></div>
 
 </div>
