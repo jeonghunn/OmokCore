@@ -42,7 +42,7 @@ $result = $grexplode[2];
 
 
 //if null
-if ($game_result == "//") {
+if ($game_result == "////") {
     echo "활성화된 게임이 없습니다. 게임이 시작되면 새로고침하여 시작하세요.";
     exit();
 }

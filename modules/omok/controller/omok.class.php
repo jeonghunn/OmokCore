@@ -19,12 +19,13 @@ class OmokClass
         if ($x == null || $y == null || $last['tick'] != $tick) {
             //  return array('tick' => $tick, 'data' => $last['data'], 'result' => $result);
             $tick = $last['tick'];
-            $x = -1;
-            $y = -1;
+            $last_x = $last['lstx'];
+            $last_y = $last['lsty'];
         } else {
             if ($map[$y][$x] != 0) return false;
             $map[$y][$x] = $team;
-
+            $last_x = $x;
+            $last_y = $y;
             $tick = $tick + 1;
 
 
@@ -54,10 +55,10 @@ class OmokClass
                         }
 
 
-        $this->updateGame($last['srl'], $map, $tick, $result, $x, $y);
+        $this->updateGame($last['srl'], $map, $tick, $result, $last_x, $last_y);
 
 
-        return array('tick' => $tick, 'data' => EncodeJson($map), 'result' => $result, 'lstx' => $x, 'lsty' => $y);
+        return array('tick' => $tick, 'data' => EncodeJson($map), 'result' => $result, 'lstx' =>  sprintf('%02d',$last_x), 'lsty' => sprintf('%02d',$last_y));
     }
 
 
@@ -67,11 +68,11 @@ class OmokClass
     }
 
 
-    function updateGame($srl, $data, $tick, $lstx, $lsty)
+    function updateGame($srl, $data, $tick, $result, $lstx, $lsty)
     {
 
 
-        return Model_Omok_UpdateData($srl, EncodeJson($data), $tick, $lstx, $lsty);
+        return Model_Omok_UpdateData($srl, EncodeJson($data), $tick,$result, $lstx, $lsty);
 
     }
 

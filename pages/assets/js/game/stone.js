@@ -64,7 +64,7 @@ game.stone.requestDol = () => {
         success: function (data) {
 
             //setProcessing(false);
-            if (data.indexOf('//') >= 0) {
+            if (data.indexOf('////') >= 0) {
                 alert('내 차례가 아닙니다. 아쉽게도 다른 분이 먼저 돌을 두셨습니다.');
 
 
@@ -115,7 +115,7 @@ game.stone.updateDol = () => {
         success: function (data) {
 
             //setProcessing(false);
-            if (data.indexOf('//') >= 0) {
+            if (data.indexOf('////') >= 0) {
                 document.getElementById('game-explainp').innerText = '상대방 차례입니다. 기다려주세요.';
 
             } else {

@@ -13,9 +13,9 @@ function Model_Omok_getLastOne()
 }
 
 
-function Model_Omok_UpdateData($srl, $data, $tick, $result)
+function Model_Omok_UpdateData($srl, $data, $tick, $result, $lstx, $lsty)
 {
-    return DBQuery("UPDATE `omok` SET `data` = '$data' ,   `tick` = '$tick',   `result` = '$result' WHERE `srl` = '$srl' AND `status` NOT LIKE 'deleted' AND `status` NOT LIKE 'end'");
+    return DBQuery("UPDATE `omok` SET `data` = '$data' ,   `tick` = '$tick',   `result` = '$result' ,   `lstx` = '$lstx' ,   `lsty` = '$lsty' WHERE `srl` = '$srl' AND `status` NOT LIKE 'deleted' AND `status` NOT LIKE 'end'");
 }
 
 function Model_Omok_UpdateStatus($srl, $status)
